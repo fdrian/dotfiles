@@ -82,7 +82,7 @@ alias lt='ls --tree'
 alias top='bashtop'
 
 # for axiom
-export PATH="$PATH:/home/mswell/.axiom/interact"
+export PATH="$PATH:$HOME/.axiom/interact"
 alias upall="yay -Syu --noconfirm"
 #get fastest mirrors in your neighborhood
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
